@@ -39,17 +39,17 @@
 /// Get the red amount.
 ///
 /// - Returns: the red amount.
-- (int)getR;
+- (int)R;
 
 /// Get the green amount.
 ///
 /// - Returns: the green amount.
-- (int)getG;
+- (int)G;
 
 /// Get the blue amount.
 ///
 /// - Returns: the blue amount.
-- (int)getB;
+- (int)B;
 
 @end
 
