@@ -28,9 +28,9 @@ int main(int argc, char * argv[]) {
 	 chkErr(decode);
 	 
 	 NSLog(@"decode.r = %d, decode.g = %d, decode.b = %d",
-		   [decode getR],
-		   [decode getG],
-		   [decode getB]);
+		   [decode R],
+		   [decode G],
+		   [decode B]);
 	 
 	 return 0;
  }
