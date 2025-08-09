@@ -67,13 +67,13 @@
     return [NSString stringWithFormat:@"Color[R=%03d G=%03d B=%03d]",r,g,b];
 }
 
-- (int)getR {
+- (int)R {
     return r;
 }
-- (int)getG {
+- (int)G {
     return g;
 }
-- (int)getB {
+- (int)B {
     return b;
 }
 
