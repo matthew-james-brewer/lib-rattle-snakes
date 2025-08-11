@@ -15,7 +15,7 @@
 @implementation SNKSnake
 
 - (BOOL)serializeToFile:(NSString *)fileName error:(NSError **)error {
-    return [[self serialize] writeToFile:fileName atomically:NO encoding:NSUTF8StringEncoding error:error];
+    return [[self serialize] writeToFile:fileName atomically:YES encoding:NSUTF8StringEncoding error:error];
 }
 
 - (id)initWithFile:(NSString *)fileName error:(NSError **)error {
